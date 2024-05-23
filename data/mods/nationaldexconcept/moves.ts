@@ -22352,6 +22352,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 75,
 		category: "Physical",
+		shortDesc: "20% chance to flinch."
 		name: "Chilling Smack",
 		pp: 20,
 		priority: 0,

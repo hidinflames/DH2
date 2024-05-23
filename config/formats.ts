@@ -2042,6 +2042,7 @@ export const Formats: FormatList = [
 	
 	mod: 'nationaldexconcept',
 	desc: `Welcome to National Dex Concept, where the metagame has been altered!`,
+	ruleset: ['Standard NatDex'],
 	},
 	{
 		name: "[Gen 9] CommunityUsed 2: Regional Dex",
