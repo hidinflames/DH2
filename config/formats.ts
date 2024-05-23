@@ -2038,7 +2038,7 @@ export const Formats: FormatList = [
 		},
 	},
 	{
-	name: "[Gen 9] National Dex Concept",
+	name: "[Gen 9] NatDex Concept",
 	
 	mod: 'gen9concept',
 	ruleset: ['Standard NatDex'],
