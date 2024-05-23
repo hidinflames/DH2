@@ -37,7 +37,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'beedrill').learnset.venomslash = ['9L1'];
 		this.modData('Learnsets', 'beedrill').learnset.spikes = ['9L1'];
 		this.modData('Learnsets', 'beedrill').learnset.taunt = ['9L1'];
-		
+
 		this.modData('Learnsets', 'raticate').learnset.chillingsmack = ['9L1'];
 		this.modData('Learnsets', 'raticate').learnset.closecombat = ['9L1'];
 		this.modData('Learnsets', 'raticate').learnset.cracklesmash = ['9L1'];
@@ -1107,7 +1107,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'octillery').learnset.aurasphere = ['9L1'];
 		this.modData('Learnsets', 'octillery').learnset.bulkup = ['9L1'];
 		this.modData('Learnsets', 'octillery').learnset.calmmind = ['9L1'];
-		this.modData('Learnsets', 'octillery').learnset.chilingsmack = ['9L1'];
+		this.modData('Learnsets', 'octillery').learnset.chillingsmack = ['9L1'];
 		this.modData('Learnsets', 'octillery').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'octillery').learnset.flipturn = ['9L1'];
 		this.modData('Learnsets', 'octillery').learnset.focusblast = ['9L1'];
