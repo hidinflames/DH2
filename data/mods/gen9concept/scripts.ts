@@ -227,7 +227,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'alakazam').learnset.psycheout = ['9L1'];
 		this.modData('Learnsets', 'alakazam').learnset.thunder = ['9L1'];
 		this.modData('Learnsets', 'alakazam').learnset.thunderbolt = ['9L1'];
-		this.modData('Learnsets', 'alakazam').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'alakazam').learnset.transcendinghit = ['9L1'];
 		this.modData('Learnsets', 'alakazam').learnset.willowisp = ['9L1'];
 	
 		this.modData('Learnsets', 'machamp').learnset.cracklesmash = ['9L1'];
@@ -283,7 +283,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'rapidashgalar').learnset.flicker = ['9L1'];
 		this.modData('Learnsets', 'rapidashgalar').learnset.highjumpkick = ['9L1'];
 		this.modData('Learnsets', 'rapidashgalar').learnset.thunderwave = ['9L1'];
-		this.modData('Learnsets', 'rapidashgalar').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'rapidashgalar').learnset.transcendinghit = ['9L1'];
 		this.modData('Learnsets', 'rapidashgalar').learnset.whismyray = ['9L1'];
 	
 		this.modData('Learnsets', 'slowbro').learnset.chillingsmack = ['9L1'];
@@ -355,7 +355,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'hypno').learnset.thunder = ['9L1'];
 		this.modData('Learnsets', 'hypno').learnset.thunderbolt = ['9L1'];
 		this.modData('Learnsets', 'hypno').learnset.toxicspeech = ['9L1'];
-		this.modData('Learnsets', 'hypno').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'hypno').learnset.transcendinghit = ['9L1'];
 		this.modData('Learnsets', 'hypno').learnset.unfriendlyflee = ['9L1'];
 	
 		this.modData('Learnsets', 'kingler').learnset.chillingsmack = ['9L1'];
@@ -402,7 +402,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'exeggutor').learnset.nutrientsip = ['9L1'];
 		this.modData('Learnsets', 'exeggutor').learnset.psycheout = ['9L1'];
 		this.modData('Learnsets', 'exeggutor').learnset.superpower = ['9L1'];
-		this.modData('Learnsets', 'exeggutor').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'exeggutor').learnset.transcendinghit = ['9L1'];
 	
 		this.modData('Learnsets', 'exeggutoralola').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'exeggutoralola').learnset.earthpower = ['9L1'];
@@ -411,7 +411,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'exeggutoralola').learnset.knockoff = ['9L1'];
 		this.modData('Learnsets', 'exeggutoralola').learnset.nutrientsip = ['9L1'];
 		this.modData('Learnsets', 'exeggutoralola').learnset.psycheout = ['9L1'];
-		this.modData('Learnsets', 'exeggutoralola').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'exeggutoralola').learnset.transcendinghit = ['9L1'];
 	
 		this.modData('Learnsets', 'marowak').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'marowak').learnset.gradientgrasp = ['9L1'];
@@ -722,7 +722,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'mewtwo').learnset.secretwillpower = ['9L1'];
 		this.modData('Learnsets', 'mewtwo').learnset.supercellslam = ['9L1'];
 		this.modData('Learnsets', 'mewtwo').learnset.swordsdance = ['9L1'];
-		this.modData('Learnsets', 'mewtwo').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'mewtwo').learnset.transcendinghit = ['9L1'];
 	
 		this.modData('Learnsets', 'mew').learnset.acidicblast = ['9L1'];
 		this.modData('Learnsets', 'mew').learnset.airbullet = ['9L1'];
@@ -755,7 +755,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'mew').learnset.spiritsuck = ['9L1'];
 		this.modData('Learnsets', 'mew').learnset.steamsummon = ['9L1'];
 		this.modData('Learnsets', 'mew').learnset.toxicspeech = ['9L1'];
-		this.modData('Learnsets', 'mew').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'mew').learnset.transcendinghit = ['9L1'];
 		this.modData('Learnsets', 'mew').learnset.unfriendlyflee = ['9L1'];
 		this.modData('Learnsets', 'mew').learnset.venomslash = ['9L1'];
 		this.modData('Learnsets', 'mew').learnset.whismyray = ['9L1'];
@@ -816,7 +816,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'noctowl').learnset.psycheout = ['9L1'];
 		this.modData('Learnsets', 'noctowl').learnset.taunt = ['9L1'];
 		this.modData('Learnsets', 'noctowl').learnset.toxicspeech = ['9L1'];
-		this.modData('Learnsets', 'noctowl').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'noctowl').learnset.transcendinghit = ['9L1'];
 	
 		this.modData('Learnsets', 'ledian').learnset.airbullet = ['9L1'];
 		this.modData('Learnsets', 'ledian').learnset.breezewhack = ['9L1'];
@@ -877,7 +877,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'xatu').learnset.meteorbeam = ['9L1'];
 		this.modData('Learnsets', 'xatu').learnset.nastyplot = ['9L1'];
 		this.modData('Learnsets', 'xatu').learnset.psychicnoise = ['9L1'];
-		this.modData('Learnsets', 'xatu').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'xatu').learnset.transcendinghit = ['9L1'];
 	
 		this.modData('Learnsets', 'ampharos').learnset.bodypress = ['9L1'];
 		this.modData('Learnsets', 'ampharos').learnset.calmmind = ['9L1'];
