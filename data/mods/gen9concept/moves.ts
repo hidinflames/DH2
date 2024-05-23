@@ -22205,7 +22205,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		sodiumslap: {
 			num: 925,
-			accuracy: 100,
+			accuracy: 95,
 			basePower: 80,
 			category: "Physical",
 			shortDesc: "30% to burn the target. Thaws user if frozen.",
