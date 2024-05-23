@@ -657,7 +657,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'articunogalar').learnset.roost = ['9L1'];
 		this.modData('Learnsets', 'articunogalar').learnset.streamsummon = ['9L1'];
 		this.modData('Learnsets', 'articunogalar').learnset.taunt = ['9L1'];
-		this.modData('Learnsets', 'articunogalar').learnset.transendinghit = ['9L1'];
+		this.modData('Learnsets', 'articunogalar').learnset.transcendinghit = ['9L1'];
 		this.modData('Learnsets', 'articunogalar').learnset.whirlwind = ['9L1'];
 	
 		this.modData('Learnsets', 'zapdos').learnset.airbullet = ['9L1'];

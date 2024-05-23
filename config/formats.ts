@@ -2040,7 +2040,7 @@ export const Formats: FormatList = [
 	{
 	name: "[Gen 9] National Dex Concept",
 	
-	mod: 'nationaldexconcept',
+	mod: 'gen9concept',
 	ruleset: ['Standard NatDex'],
 	teambuilderFormat: 'National Dex',
 	desc: `Welcome to National Dex Concept, where the metagame has been altered!`,

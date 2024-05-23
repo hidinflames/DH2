@@ -22228,7 +22228,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 85,
 		category: "Physical",
 		shortDesc: "No additonal effect.",
-		name: "Shadow Claw",
+		name: "Phantom Strike",
 		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
@@ -23071,7 +23071,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		heal: [1, 2],
 		secondary: null,
 		target: "normal",
-		type: "Poison",
+		type: "Dark",
 	},
 	wyvernsting: {
 		num: 963,
