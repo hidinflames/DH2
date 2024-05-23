@@ -1024,14 +1024,6 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'qwilfishhisui').learnset.thunderwave = ['9L1'];
 		this.modData('Learnsets', 'qwilfishhisui').learnset.toxicspeech = ['9L1'];
 	
-		this.modData('Learnsets', 'scizor').learnset.airbullet = ['9L1'];
-		this.modData('Learnsets', 'scizor').learnset.breezewhack = ['9L1'];
-		this.modData('Learnsets', 'scizor').learnset.chillingsmack = ['9L1'];
-		this.modData('Learnsets', 'scizor').learnset.cry = ['9L1'];
-		this.modData('Learnsets', 'scizor').learnset.dualchop = ['9L1'];
-		this.modData('Learnsets', 'scizor').learnset.meltdown = ['9L1'];
-		this.modData('Learnsets', 'scizor').learnset.streamsummon = ['9L1'];
-	
 		this.modData('Learnsets', 'shuckle').learnset.buzzout = ['9L1'];
 		this.modData('Learnsets', 'shuckle').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'shuckle').learnset.kamikaze = ['9L1'];
