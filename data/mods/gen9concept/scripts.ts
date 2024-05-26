@@ -104,9 +104,10 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'sandslashalola').learnset.permafrost = ['9L1'];
 		this.modData('Learnsets', 'sandslashalola').learnset.piercingspike = ['9L1'];
 		this.modData('Learnsets', 'sandslashalola').learnset.uturn = ['9L1'];
-		this.modData('Learnsets', 'nidqoueen').learnset.piercingspike = ['9L1'];
-		this.modData('Learnsets', 'nidqoueen').learnset.acidicblast = ['9L1'];
-		this.modData('Learnsets', 'nidqoueen').learnset.toxicspeech = ['9L1'];
+
+		this.modData('Learnsets', 'nidoqueen').learnset.piercingspike = ['9L1'];
+		this.modData('Learnsets', 'nidoqueen').learnset.acidicblast = ['9L1'];
+		this.modData('Learnsets', 'nidoqueen').learnset.toxicspeech = ['9L1'];
 	
 		this.modData('Learnsets', 'nidoking').learnset.acidicblast = ['9L1'];
 		this.modData('Learnsets', 'nidoking').learnset.piercingspike = ['9L1'];
@@ -114,6 +115,7 @@ export const Scripts: ModdedBattleScriptsData = {
 	
 		this.modData('Learnsets', 'clefable').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'clefable').learnset.whimsyray = ['9L1'];
+
 		this.modData('Learnsets', 'ninetales').learnset.eeriespell = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.flicker = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.morningsun = ['9L1'];
