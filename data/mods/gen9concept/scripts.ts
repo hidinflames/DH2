@@ -116,7 +116,6 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'clefable').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'clefable').learnset.whimsyray = ['9L1'];
 	
-		this.modData('Learnsets', 'ninetales').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.eeriespell = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.evaporate = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.flicker = ['9L1'];
@@ -126,7 +125,6 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'ninetales').learnset.spiritsuck = ['9L1'];
 	
 		this.modData('Learnsets', 'ninetalesalola').learnset.chillingsmack = ['9L1'];
-		this.modData('Learnsets', 'ninetalesalola').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'ninetalesalola').learnset.eeriespell = ['9L1'];
 		this.modData('Learnsets', 'ninetalesalola').learnset.partingshot = ['9L1'];
 		this.modData('Learnsets', 'ninetalesalola').learnset.permafrost = ['9L1'];
