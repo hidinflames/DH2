@@ -115,7 +115,6 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'clefable').learnset.cry = ['9L1'];
 		this.modData('Learnsets', 'clefable').learnset.whimsyray = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.eeriespell = ['9L1'];
-		this.modData('Learnsets', 'ninetales').learnset.evaporate = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.flicker = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.morningsun = ['9L1'];
 		this.modData('Learnsets', 'ninetales').learnset.partingshot = ['9L1'];
