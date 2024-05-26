@@ -129,7 +129,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'ninetalesalola').learnset.permafrost = ['9L1'];
 		this.modData('Learnsets', 'ninetalesalola').learnset.psycheout = ['9L1'];
 		this.modData('Learnsets', 'ninetalesalola').learnset.whimsyray = ['9L1'];
-	
+
 		this.modData('Learnsets', 'vileplume').learnset.acidicblast = ['9L1'];
 		this.modData('Learnsets', 'vileplume').learnset.forestsguard = ['9L1'];
 		this.modData('Learnsets', 'vileplume').learnset.foulplay = ['9L1'];
