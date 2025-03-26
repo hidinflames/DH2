@@ -984,9 +984,9 @@ export const Abilities: { [abilityid: string]: ModdedAbilityData; } = {
 				this.heal(source.baseMaxhp / 8);
 			}
 		},
-		shortDesc: "Cramorant: 1/3 less damage in Gulping/Gourging, +1/8 max HP if uses a Water-/Flying-type move. Arrokuda = -1 Def/-SpD, Pikachu = -2 Spe.",
+		shortDesc: "When hit after Surf/Dive, attacker takes -1 Def/SpDef or -2 Spe. User: 1/3 less damage, +1/8 max HP."
 	},
-	northernmist: {
+	northmist: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Northern Mist');
 		},
@@ -1004,7 +1004,7 @@ export const Abilities: { [abilityid: string]: ModdedAbilityData; } = {
 				return secondaries.filter(effect => !!(effect.self || effect.dustproof));
 			}
 		},
-		shortDesc: "On switch in, creates mist. When the user is under Mist the user is immune to secondary effects and takes 2/3 damage from non contact moves",
+		shortDesc: "On switch-in; Mist. If under Mist, 2/3 damage from non-contact moves, secondary effect immunity.",
 	},
 	lifestealer: {
 		onResidualOrder: 8,
@@ -1062,7 +1062,7 @@ export const Abilities: { [abilityid: string]: ModdedAbilityData; } = {
 			}
 		},
 		flags: {},
-		shortDesc: "This Pokemon's Ice/Ghost/Fairy attacks do 1.2x, 1.3x in Snow; immunity to Frst.",
+		shortDesc: "This Pokemon's Ice/Ghost/Fairy attacks do 1.2x, 1.3x in Snow; immunity to Frostbite.",
 		desc: "This Pokemon's Ice, Ghost, and Fairy attacks have 1.2x power. If Snow is active, this Pokemon's Ice, Ghost, and Fairy attacks instead have 1.3x power and ignore user's Burn. Frostbite immunity.",
 		name: "Snow Flurry",
 		rating: 3,
@@ -1077,7 +1077,7 @@ export const Abilities: { [abilityid: string]: ModdedAbilityData; } = {
 			}
 		},
 		shortDesc: "This Pokemon cannot be burned and frostbitten. If Hail Snow is active, this Pokemon's speed is doubled.",
-		desc: "This Pokemon cannot be burned and frostbitten. If Hail Snow is active, this Pokemon's speed is doubled.",
+		desc: "Cannot be burned/frostbitten. If under Snow, Speed is doubled.",
 	},
 	lightpower: {
 		onModifySpAPriority: 5,
@@ -1120,10 +1120,10 @@ export const Abilities: { [abilityid: string]: ModdedAbilityData; } = {
 		},
 		flags: {breakable: 1},
 		desc: "Bug/Ghost/Dark resistances. This Pokemon's Speed is raised by 1 stage if hit by a Bug-, Dark-, or Ghost-type attack, or if an opposing Pokemon affected this Pokemon with the Intimidate Ability.",
-		shortDesc: "Bug/Ghost/Dark resistances. Speed is raised 1 stage if hit by a Bug-, Dark-, or Ghost-type attack, or Intimidated.",
+		shortDesc: "Bug/Ghost/Dark resistances. +1 Speed if hit by a Bug/Dark/Ghost attack, or Intimidated.",
 	},
 	savage: {
-		shortDesc: "The Pokémon’s Attack or Special Attack copies from the higher stat (held items does not apply for which is higher). Stat stages and held items apply as normal.",
+		shortDesc: "The Pokémon uses its attacks from the higher Attack/Special Attack stat.",
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, pokemon) {
 			const currentatk = pokemon.storedStats.atk;
@@ -1166,8 +1166,8 @@ export const Abilities: { [abilityid: string]: ModdedAbilityData; } = {
 		num: -25,
 		name: "Resourceful",
 		rating: 4,
-		desc: "If this Pokémon's item would trigger, it triggers again. Once per battle, if this Pokémon's item would be consumed, it isn't.",
-		shortDesc: "Items trigger twice, and can avoid being consumed once.",
+		desc: "If this Pokémon's item would trigger, it triggers again.",
+		shortDesc: "If this Pokémon's item would trigger, it triggers again.",
 		//onTakeItem(item, pokemon, source) {
 		//	
 		//},
