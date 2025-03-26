@@ -3,6 +3,8 @@ export const Items: { [k: string]: ModdedItemData; } = {
 		name: "Crystal Crown",
 		num: -1,
 		shortDesc: "0.67x damage from Z-Move/Mega/Dynamax/Tera. Attack = -1/8 HP.",
+		gen: 9,
+		rating: 3,
 		onSourceModifyDamage(damage, source, target, move) {
 			if (move.isZ || (source.volatiles['dynamax'] && source.volatiles['dynamax'].isActive) || source.volatiles['terastallized'] || (source.forme && source.forme.startsWith('Mega'))) {
 				return this.chainModify(0.67);
@@ -1247,7 +1249,7 @@ export const Items: { [k: string]: ModdedItemData; } = {
 		},
 		num: -21,
 		gen: 9,
-		shortDesc: "Greninja with Water Shuriken; can use Bond Slicing Shuriken. Turns into Greninja-Ash.",
+		shortDesc: "Greninja w/ Water Shuriken; can use Bond Slicing Shuriken. Turns into Greninja-Ash.",
 	},
 	// Slate 7
 	yellowcard: {
@@ -1880,6 +1882,8 @@ export const Items: { [k: string]: ModdedItemData; } = {
 			return this.chainModify(2);
 		},
 		desc: "User's SpD is doubled, but it can only use moves of the same type as itself.",
+		gen: 9,
+		rating: 3,
 	},
 	expertbelt: {
 		inherit: true,
@@ -1894,7 +1898,7 @@ export const Items: { [k: string]: ModdedItemData; } = {
 				return this.chainModify([4915, 4096]);
 			}
 		},
-		desc: "Holder's attacks that are super effective against the target do 1.2x damage. If your super effective attacks hits a target, then your next attack does 1.2x damage regardless.",
+		desc: "Super-effective attacks do 1.2x damage. If a super-effective hit lands, next attack has 1.2x damage.",
 	},
 	cursedfeather: {
 		name: "Cursed Feather",
@@ -1934,7 +1938,7 @@ export const Items: { [k: string]: ModdedItemData; } = {
 		num: -30,
 		gen: 9,
 		rating: 3,
-		desc: "",
-		shortDesc: "",
+		desc: "If the user is statused, attacks deal 1.3x damage and heals 1/8 max HP at the end of each turn. Ignores burn/paralysis/frostbite drops.",
+		shortDesc: "Statuses; attacks deal 1.3x damage, heals 1/8 max HP. Ignores burn/paralysis/frostbite drops.",
 	},
 };
